@@ -1,0 +1,224 @@
+@font-face {
+    font-family: nino;
+    src: url(../fonts/bpg_nino_mtavruli_normal.otf);
+}
+
+@font-face {
+    font-family: ariall;
+    src: url(../fonts/bpg_arial_2009.ttf);
+}
+
+body{
+    margin: 0;
+}
+
+.container{
+    width: 1100px;
+}
+.lang-nav{
+    background-color: #242323ce;
+}
+
+.lang .list-inline-item a{
+    text-decoration: none;
+    font-family: nino;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.menu .list-inline-item a{
+    text-decoration: none;
+    font-family: nino;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.lang{
+    margin-bottom: 0;
+    padding: 11px 0px 5px;
+}
+
+.menu{
+    margin-bottom: 0;
+    padding: 11px 0px 5px;
+}
+.menu .list-inline-item a{
+    margin-right: 26px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: 0;
+}
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-nav a{
+    color: #6b6b6b;
+    font-size: 17px;
+    font-family: nino;
+}
+
+.dogIMG{
+    position: relative;
+    top: -8px;
+    right: -9px;
+}
+
+.menu .list-inline-item:last-child a{
+    margin-right: 0;
+} 
+
+.nav-item .nav-link{
+    margin-right: 20px;
+}
+
+.nav-item .nav-link img{
+    margin-right: 12px;
+}
+
+.nav-item:last-child .nav-link{
+    margin-right: 0;
+    padding-right: 0;
+}
+.carousel-inner .carousel-item{
+    height: 730px;
+    background-size: cover;
+    background-position: 51%;
+}
+.zIN{
+    z-index: 9999;
+}
+.lang a:hover{
+    color: rgb(255, 174, 0);
+}
+.about a:hover{
+    color: rgb(255, 174, 0);
+}
+.myNav{
+    top: 40px;
+}
+.myNav::after{
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: -2px;
+    height: 1px;
+    background-color: white;
+}
+
+.nav-item .dropdown-menu li{
+    border-bottom: 1px solid #c3cbcc;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+}
+.nav-item .dropdown-menu a{
+    font-family: ariall;
+    font-size: 14px;
+}
+.nav-item .dropdown-menu{
+    width: 272px;
+    padding: 0;
+    top: 80px;
+}
+.nav-item .dropdown-menu::before{
+    content: "";
+    position: absolute;
+    top: -5px;
+    background-color: #df2335;
+    height: 3px;
+    width: 45%;
+}
+.carousel-caption{
+    position: absolute;
+    bottom: 0rem;
+    right: 0%;
+    left: 10%;
+    top: 35%;
+    width: 50%;
+    height: fit-content;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: white;
+    text-align: start;
+}
+.carousel-caption p{
+    font-size: 17px;
+    color: white;
+    font-family: ariall;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    margin-bottom: 50px;
+}
+
+.carousel-caption h5{
+    font-size: 24px;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    color: white;
+    font-family: nino;
+    margin-bottom: 15px;
+}
+.seeMore{
+    font-family: nino;
+    font-size: 17px;
+    padding: 17px 31px 14px 35px;
+    background-color: #e23748;
+}
+.finally{
+    height: 207px;
+    padding-top: 30px;
+}
+.card{
+    border: 1px solid #d2d2d2;
+}
+.card img{
+    object-fit: contain;
+}
+.card1{
+    border: 1px solid #d2d2d2;
+}
+.card1 img{
+    object-fit: contain;
+}
+.card2{
+    border: 1px solid #d2d2d2;
+    object-fit: fill;
+}
+.card2 a{
+    object-fit: contain;
+}
+.card3{
+    border: 1px solid #d2d2d2;
+}
+.card3 a{
+    object-fit: contain;
+}
+.card4{
+    border: 1px solid #d2d2d2;
+}
+.card4 a{
+    object-fit: contain;
+}
+footer{
+    color: #828282;
+}
+@media (max-width: 576px){
+    .container{
+        width: 320px;
+    }
+}
+@media (max-width: 320px){
+    .container{
+        width: 250px;
+    }
+}
+@media (max-width: 768px){
+    .copyright{
+        display: none;
+    }
+}
